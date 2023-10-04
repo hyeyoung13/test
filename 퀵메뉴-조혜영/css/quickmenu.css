@@ -1,0 +1,27 @@
+
+
+body{width:800px;margin:0 auto;text-align:justify;}
+
+/*퀵 메뉴*/
+#quick_menu{
+	width:95px;
+	height:210px;
+	text-align:center;
+	border-radius: 10px;
+	position:absolute;
+	top:100px;right:100px;
+	padding:20px 0;
+	box-shadow: 0px 0px 4px  rgba(8,35,25,.2);
+  
+}
+
+#quick_menu ul {margin-top:5px; height:80%;}
+#quick_menu p {font-weight:bold; font-size:20px; color:#173e2c; }
+
+#quick_menu li:nth-child(1) {position:relative; top:5px;}
+
+#quick_menu li:nth-child(2) {margin-top:5px;}
+
+#quick_menu li:nth-child(3) {position:relative; top:4px;}
+
+#quick_menu li:nth-child(4) {position:relative; top:-16px;}
